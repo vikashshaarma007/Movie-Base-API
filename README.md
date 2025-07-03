@@ -72,9 +72,18 @@ This backend system is built using Laravel 10, follows REST API best practices, 
    ![image](https://github.com/user-attachments/assets/9375e39b-a716-4986-875e-ff277712696c)
 
 * API endpoint to create movie with their nested reviews
-  ![image](https://github.com/user-attachments/assets/3b6c77fd-2b86-4a5d-9f9b-32094603b8f2)
-  
-* Database Table
+  1. Movie
+    ![image](https://github.com/user-attachments/assets/3b6c77fd-2b86-4a5d-9f9b-32094603b8f2)
+  2. Review
+     ![image](https://github.com/user-attachments/assets/39ea49f3-e750-48df-9713-a42e3ed99a20)
+* API endpoint to return movie with their nested reviews By id
+   1. Movie
+      ![image](https://github.com/user-attachments/assets/4f3e7449-19d0-48c4-9649-172e89279ca8)
+   2. Review
+      ![image](https://github.com/user-attachments/assets/90fdad8e-442f-4704-ac7f-4f067123d56e)
+  * API endpoint to Delte movie with their nested reviews By id
+     ![image](https://github.com/user-attachments/assets/0f56ab33-5c3d-4df2-bb12-177e88181069)
+ * Database Table
    1. Movies
     ![image](https://github.com/user-attachments/assets/faae628f-4d61-4fee-944a-c7c14c821bc1)
    2. Review
