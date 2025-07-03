@@ -66,8 +66,10 @@ This backend system is built using Laravel 10, follows REST API best practices, 
 <!-- GETTING STARTED -->
 ## Demo:
 * API endpoint to return all movies with their nested reviews:
- ![image](https://github.com/user-attachments/assets/53703703-8dd6-4d72-9713-adb114298714)
- ![image](https://github.com/user-attachments/assets/9375e39b-a716-4986-875e-ff277712696c)
+  1. Movies
+   ![image](https://github.com/user-attachments/assets/53703703-8dd6-4d72-9713-adb114298714)
+  2. Review
+   ![image](https://github.com/user-attachments/assets/9375e39b-a716-4986-875e-ff277712696c)
 
 * API endpoint to create movie with their nested reviews
   ![image](https://github.com/user-attachments/assets/3b6c77fd-2b86-4a5d-9f9b-32094603b8f2)
