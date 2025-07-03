@@ -17,7 +17,7 @@
 <p align="center"><i>CRUD Operations</i> 👨🏽‍💻 
   <br>
 
-<p align="center"><i>MovieBase API is a Laravel-based RESTful API application designed to manage a database of movies and user reviews. It provides a complete suite of CRUD operations (Create, Read, Update, Delete) for both movies and their associated reviews, making it ideal for use in movie listing or review platforms.
+<p align="left"><i>MovieBase API is a Laravel-based RESTful API application designed to manage a database of movies and user reviews. It provides a complete suite of CRUD operations (Create, Read, Update, Delete) for both movies and their associated reviews, making it ideal for use in movie listing or review platforms.
 This backend system is built using Laravel 10, follows REST API best practices, and is designed to be tested using tools like Postman.</i></p>
 
  ## ✅ Features
@@ -94,7 +94,7 @@ This backend system is built using Laravel 10, follows REST API best practices, 
   1. Clone the repo
 
 ```sh
-      https://github.com/vikashshaarma007/Employee-Management-System.git
+     https://github.com/vikashshaarma007/Movie-Base-API.git
       cd Movie-Base-API
 ```
 2. Run the Project
