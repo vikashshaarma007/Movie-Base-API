@@ -81,7 +81,7 @@ This backend system is built using Laravel 10, follows REST API best practices, 
       ![image](https://github.com/user-attachments/assets/4f3e7449-19d0-48c4-9649-172e89279ca8)
    2. Review
       ![image](https://github.com/user-attachments/assets/90fdad8e-442f-4704-ac7f-4f067123d56e)
-  * API endpoint to Delte movie with their nested reviews By id
+  * API endpoint to Delete movie with their nested reviews By id
      ![image](https://github.com/user-attachments/assets/0f56ab33-5c3d-4df2-bb12-177e88181069)
  * Database Table
    1. Movies
