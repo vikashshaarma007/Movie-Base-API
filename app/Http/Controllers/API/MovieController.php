@@ -27,12 +27,19 @@ class MovieController extends Controller
     public function update(StoreMovieRequest $request, Movie $movie)
     {
         $movie->update($request->validated());
-        return $movie;
+
+        return response()->json([
+            'message' => 'Movie updated successfully.',
+            'data' => $movie
+        ], 200); // 200 OK
     }
 
     public function destroy(Movie $movie)
     {
         $movie->delete();
-        return response()->noContent();
+
+        return response()->json([
+            'message' => 'Movie and its reviews deleted successfully.'
+        ], 200);
     }
 }

@@ -35,9 +35,19 @@ class ReviewController extends Controller
 
     public function update(StoreReviewRequest $request, Movie $movie, Review $review)
     {
+        // Ensure the review belongs to the correct movie
+        if ($review->movie_id !== $movie->id) {
+            return response()->json(['error' => 'Review does not belong to this movie.'], 403);
+        }
+
         $review->update($request->validated());
-        return $review;
+
+        return response()->json([
+            'message' => 'Review updated successfully.',
+            'data' => $review
+        ], 200);
     }
+
 
     public function destroy(Movie $movie, Review $review)
     {

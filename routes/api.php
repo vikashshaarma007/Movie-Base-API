@@ -9,6 +9,8 @@ Route::get('/ping', function () {
 });
 Route::get('/reviews', [ReviewController::class, 'index']);
 Route::get('/reviews/{id}', [ReviewController::class, 'show']);
+Route::post('/movies/{movie}/reviews', [ReviewController::class, 'store']);
+
 
 Route::apiResource('movies', MovieController::class);
 Route::apiResource('movies.reviews', ReviewController::class);
