@@ -22,15 +22,17 @@ This backend system is built using Laravel 10, follows REST API best practices, 
 
  ## ✅ Features
 ```sh
-      👤 Get all employees
-      ➕ Add a new employee
-      ✏️ Update an existing employee
-      ❌ Delete an employee
-      🔢 Pagination support
-      📊 PostgreSQL database integration
+      •  Full CRUD API for managing:
+	      🎬 Movies
+	      📝 Movie-specific Reviews
+      •  Nested review routes under each movie
+      •  Validated input using Laravel Form Requests
+      •  Built-in data relationships with Eloquent
+      •  Bulk movie insert support via JSON
+      •  Structured according to REST standards
+
 ```
-<!-- TABLE OF CONTENTS -->
- <!-- TABLE OF CONTENTS -->
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>📚 Table of Contents (Click to expand)</summary>
@@ -57,16 +59,15 @@ This backend system is built using Laravel 10, follows REST API best practices, 
   * Php
   * Laravel
   * Blade
-  * HTML
-  * Bootstrap
-  * JavaScript
   * PostgreSQL Database
+  * RestFull API
   
 
 <!-- GETTING STARTED -->
 ## Demo:
-* All Employees User Interface
-  ![image](https://github.com/user-attachments/assets/f5823a81-8225-466b-8bbc-d01b7d9a98a3)
+* API endpoint to return all movies with their nested reviews:
+ ![image](https://github.com/user-attachments/assets/53703703-8dd6-4d72-9713-adb114298714)
+
 
 * Add Employee User Interface
   ![image](https://github.com/user-attachments/assets/522be22a-ffc6-411f-b155-4d92af91c6f1)
