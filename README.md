@@ -11,7 +11,7 @@
 
 
 <h1 align="center">🎬 MovieBase API — Laravel RESTful Movies & Reviews System 🧮🚀</h1>
-<p align="center"><i>MovieBase API is a backend RESTful web service built with Laravel and PostgreSQL that allows users to manage a collection of movies and user-submitted reviews. The application follows RESTful architecture principles and provides full CRUD operations for both entities. It’s suitable for powering a movie listing site, review platform, or learning projects.</i></p>
+<p align="left"><i>MovieBase API is a backend RESTful web service built with Laravel and PostgreSQL that allows users to manage a collection of movies and user-submitted reviews. The application follows RESTful architecture principles and provides full CRUD operations for both entities. It’s suitable for powering a movie listing site, review platform, or learning projects.</i></p>
 <br>
 
 <p align="center"><i>CRUD Operations</i> 👨🏽‍💻 
