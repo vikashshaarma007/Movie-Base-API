@@ -67,28 +67,18 @@ This backend system is built using Laravel 10, follows REST API best practices, 
 ## Demo:
 * API endpoint to return all movies with their nested reviews:
  ![image](https://github.com/user-attachments/assets/53703703-8dd6-4d72-9713-adb114298714)
+ ![image](https://github.com/user-attachments/assets/9375e39b-a716-4986-875e-ff277712696c)
 
-
-* Add Employee User Interface
-  ![image](https://github.com/user-attachments/assets/522be22a-ffc6-411f-b155-4d92af91c6f1)
-  ![image](https://github.com/user-attachments/assets/4304d9de-cfb9-4dee-b18f-88b2a45a89f7)
-
-* Update Employee User Interface
-  ![image](https://github.com/user-attachments/assets/a4d397e7-0e74-45f3-bb83-b310efb9aa07)
-  ![image](https://github.com/user-attachments/assets/597493bd-6059-478e-8756-26e1d19cb1bb)
+* API endpoint to create movie with their nested reviews
+  ![image](https://github.com/user-attachments/assets/3b6c77fd-2b86-4a5d-9f9b-32094603b8f2)
   
-* Delete Employee User Interface
-  ![image](https://github.com/user-attachments/assets/28280fda-5cc4-41e8-b357-af53024ad6fa)
-  ![image](https://github.com/user-attachments/assets/be061b3c-796e-4061-8668-ed98bb05bf49)
-
-* Pagination:
-  1. Page No.1:
-    ![Screenshot 2025-06-28 211120](https://github.com/user-attachments/assets/40ea9620-8b8e-4125-969b-0db3868bd929)
-  2. Page No.2:
-    ![Screenshot 2025-06-28 211622](https://github.com/user-attachments/assets/0ae23ae3-5f70-4a75-8c4c-c1f6fc907d1d)
-
 * Database Table
-  ![image](https://github.com/user-attachments/assets/908a71c6-95cf-48c2-ad82-c1daf5d38164)
+   1. Movies
+    ![image](https://github.com/user-attachments/assets/faae628f-4d61-4fee-944a-c7c14c821bc1)
+   2. Review
+    ![image](https://github.com/user-attachments/assets/3f8f4706-4afa-4e61-a817-a884e70d2fe2)
+
+
 
 ## Getting Started
 ### Prerequisites
@@ -105,11 +95,11 @@ This backend system is built using Laravel 10, follows REST API best practices, 
 
 ```sh
       https://github.com/vikashshaarma007/Employee-Management-System.git
-      cd Employee-Management-System
+      cd Movie-Base-API
 ```
 2. Run the Project
    ```sh
-    1. Create a Database -> EMS_db using pgAdmin 4 or any PostgreSQL client.
+    1. Create a Database -> MovieRestApi_DB using pgAdmin 4 or any PostgreSQL client.
     2. Open the project in your preferred IDE (e.g., VS Code, PHPStorm, Sublime Text).
     3. Install project dependencies:
        composer install
@@ -119,7 +109,7 @@ This backend system is built using Laravel 10, follows REST API best practices, 
        DB_CONNECTION=pgsql
        DB_HOST=127.0.0.1
        DB_PORT=5432
-       DB_DATABASE=EMS_db
+       DB_DATABASE=MovieRestApi_DB
        DB_USERNAME=postgresql
        DB_PASSWORD=root
     6. Generate the application key:
@@ -135,16 +125,19 @@ This backend system is built using Laravel 10, follows REST API best practices, 
    ```
 ## Usage
 ```sh
-   Add new employees through the UI.
-   Edit or delete employee data.
-   Paginate through employee records.
-   All actions use Laravel's built-in validation and routing.
+     Add new movies using the API.
+     Submit, edit, or delete reviews for any movie.
+     Retrieve all movies with their associated reviews.
+     Bulk upload multiple movies via JSON.
+     All actions use Laravel's built-in validation, routing, and Eloquent ORM.
+
 ```
 ## Roadmap
 ```sh
-   Authentication system
-   Role-based access control
-   Employee profile pictures
-   Export to CSV/PDF
-   API endpoints (Laravel Sanctum)
+      Add authentication using Laravel Sanctum.
+      Implement role-based access (Admin, Reviewer).
+      Add support for movie poster/image uploads.
+      Export movie and review data to CSV or PDF.
+      Introduce pagination and filtering for movies and reviews.
+      Create an OpenAPI (Swagger) documentation for all endpoints.
 ```
